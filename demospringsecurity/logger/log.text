@@ -1,0 +1,36 @@
+com.predfut.demospringsecurity.DemospringsecurityApplication-2025-07-22 16:33:08,556-INFO-Starting DemospringsecurityApplication using Java 17.0.4.1 with PID 8184 (C:\Users\ADMIN\Downloads\demospringsecurity\demospringsecurity\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\demospringsecurity\demospringsecurity)-
+ com.predfut.demospringsecurity.DemospringsecurityApplication-2025-07-22 16:33:08,559-INFO-No active profile set, falling back to 1 default profile: "default"-
+ org.springframework.data.repository.config.RepositoryConfigurationDelegate-2025-07-22 16:33:12,681-INFO-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+ org.springframework.data.repository.config.RepositoryConfigurationDelegate-2025-07-22 16:33:12,803-INFO-Finished Spring Data repository scanning in 115 ms. Found 2 JPA repository interfaces.-
+ org.springframework.boot.web.embedded.tomcat.TomcatWebServer-2025-07-22 16:33:16,936-INFO-Tomcat initialized with port 8080 (http)-
+ org.apache.catalina.core.StandardService-2025-07-22 16:33:16,941-INFO-Starting service [Tomcat]-
+ org.apache.catalina.core.StandardEngine-2025-07-22 16:33:16,942-INFO-Starting Servlet engine: [Apache Tomcat/10.1.42]-
+ org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-2025-07-22 16:33:17,179-INFO-Initializing Spring embedded WebApplicationContext-
+ org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-2025-07-22 16:33:17,180-INFO-Root WebApplicationContext: initialization completed in 8612 ms-
+ org.hibernate.jpa.internal.util.LogHelper-2025-07-22 16:33:17,285-INFO-HHH000204: Processing PersistenceUnitInfo [name: default]-
+ org.hibernate.cache.internal.RegionFactoryInitiator-2025-07-22 16:33:17,300-INFO-HHH000026: Second-level cache disabled-
+ org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-2025-07-22 16:33:17,467-INFO-No LoadTimeWeaver setup: ignoring JPA class transformer-
+ com.zaxxer.hikari.HikariDataSource-2025-07-22 16:33:17,472-INFO-HikariPool-9 - Starting...-
+ com.zaxxer.hikari.pool.HikariPool-2025-07-22 16:33:18,624-INFO-HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48f4f1fa-
+ com.zaxxer.hikari.HikariDataSource-2025-07-22 16:33:18,626-INFO-HikariPool-9 - Start completed.-
+ org.hibernate.orm.deprecation-2025-07-22 16:33:18,644-WARN-HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)-
+ org.hibernate.orm.deprecation-2025-07-22 16:33:18,646-WARN-HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead-
+ org.hibernate.orm.connections.pooling-2025-07-22 16:33:18,648-INFO-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown-
+ org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-2025-07-22 16:33:18,890-INFO-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+ org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-2025-07-22 16:33:19,347-INFO-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+ com.predfut.demospringsecurity.Service.JwtFilterService-2025-07-22 16:33:19,583-DEBUG-Filter 'jwtFilterService' configured for use-
+ org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-2025-07-22 16:33:19,692-INFO-Global AuthenticationManager configured with UserDetailsService bean with name myUsersDetailsService-
+ org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-2025-07-22 16:33:19,727-WARN-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+ org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry-2025-07-22 16:33:19,912-WARN-One of the patterns in [Register, login] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.-
+ org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-2025-07-22 16:33:20,148-INFO-LiveReload server is running on port 35729-
+ org.springframework.boot.web.embedded.tomcat.TomcatWebServer-2025-07-22 16:33:20,197-INFO-Tomcat started on port 8080 (http) with context path '/'-
+ com.predfut.demospringsecurity.DemospringsecurityApplication-2025-07-22 16:33:20,231-INFO-Started DemospringsecurityApplication in 13.772 seconds (process running for 2149.33)-
+ org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-2025-07-22 16:33:20,244-INFO-Condition evaluation unchanged-
+ 
