@@ -22,6 +22,7 @@ import com.predfut.demospringsecurity.Service.StudentService;
 public class StudentController {
 	@Autowired
 	StudentService service;
+	
 	 private  static	Logger l=LoggerFactory.getLogger(StudentController.class);
 	
 	@GetMapping("/")	
