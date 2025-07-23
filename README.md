@@ -50,7 +50,9 @@ Use token in Authorization header for all secured APIs.
 Student CRUD APIs are protected.
 
 🔑 Login Endpoint:-
+
 POST /api/auth/login
+
 Content-Type: application/json
 
 {
@@ -66,29 +68,42 @@ Content-Type: application/json
 🧪 Secured CRUD APIs (JWT Required):-
 
 POST /api/students
+
 Authorization: Bearer <your_token>
+
 Content-Type: application/json
+
 GET /api/students
+
 Authorization: Bearer <your_token>
+
 GET /api/students/1
+
 Authorization: Bearer <your_token>
+
 PUT /api/students/1
+
 Authorization: Bearer <your_token>
+
 Content-Type: application/json
+
 DELETE /api/students/1
+
 Authorization: Bearer <your_token>
 
 🧾 Logger Example:-
 Using LoggerFactory
 
 📓 Sample Log Output:-
-pgsql
-Copy
-Edit
+
 INFO  - Login request received for user: admin
+
 INFO  - JWT generated for user: admin
+
 DEBUG - Valid token for user: admin
+
 INFO  - Created student: Alice
+
 INFO  - Fetched all students
 
 🧰 Build & Run:-
