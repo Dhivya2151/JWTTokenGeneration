@@ -1,4 +1,6 @@
 Spring Boot JWT Token Based Student CRUD API with Logging
+
+
 🎓 Student Management API – Secured by JWT:-
 
 This project provides a secure RESTful API for managing student records using JWT token-based authentication and full CRUD operations. Logging is added to trace login, token actions, and student-related activities.
